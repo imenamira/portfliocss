@@ -1,0 +1,300 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+     
+       width: 100%;
+      background: darkred;
+       padding: 5px;
+       
+
+    
+  }
+  header > img{
+    width: 100%;
+  }
+
+  .navmenu{
+      
+      
+      display: flex;
+      background-color: darkred;
+     
+      height:70px ;
+      width: 100%;
+      justify-content: space-between;
+      
+      align-items: center;
+      color: white;
+     
+
+  }
+  .navmenu > h1 {
+    font-size: 20px;
+    margin: 1cm;
+    font-weight: bold;
+  }
+  .titremenu{
+      
+     text-align: left;
+      font-size: 40px;
+     
+      
+  
+      
+  }
+  .listmenu{
+    display: flex;
+    justify-content: center;
+     list-style-type: none;
+    
+  }
+  .listmenu > li >a {
+    
+      color: white;
+    margin: 0 20px;
+    font-weight: 600;
+    text-decoration: none;
+   
+  }
+  .listmenu > li > a:hover {
+    border-bottom: 5px solid rgba(58, 7, 7);
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  @media (max-width:700px) {
+    .navmenu > ul >a{
+      display: none;
+    }
+    
+    .listmenu {
+      display: flex;
+      flex-direction: column;
+    }
+    .titremenu{
+      
+      text-align: left;
+       font-size: 40px;
+       margin: 1cm;
+      
+         
+   }
+   
+    
+  }
+    .intro {
+       display: flex;
+       
+    }
+    .intro > div > img {
+       background: white;
+       padding: 5px;
+       margin: 20px;
+    }
+    .intro > div > ul {
+       background: rgb(211, 203, 203);
+       border: 5 gray solid;
+       border-radius: 15px;
+       padding: 20px;
+       margin: 20px;
+       
+    }
+    .intro > div  > h1{
+      padding: 20px;
+       margin: 20px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
+    }
+
+    @media (max-width: 700px) {
+      .intro {
+        display: flex;
+        flex-direction: column;
+        
+     }
+     .biographie > article > div {
+      display: flex;
+      flex-direction: column;
+     }
+     
+    }
+
+    .biographie{
+      display: flex;
+      flex-direction: column;
+    }    
+    .biographie > h1 {
+      font-size: 40px;
+      font-style: italic;
+      color: red ;
+      text-align: left;
+      grid-row: 1/2;
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    }
+    .biographie > article  >p  {
+      background : grey;
+      width: 100%;
+
+      word-break: keep-all;
+      padding: 1cm;
+      margin: 1cm;  
+    }
+    .biographie > article >  h3 {
+     color: rgb(56, 2, 29);
+     font-size: 30px;
+      font-style: italic;
+      border-radius: 15px;
+      margin: 1cm;
+    }
+     .biographie > article > div {
+      display: flex;
+      flex-direction: row;
+     }
+     .biographie > article >div > p {
+      background : grey;
+      font-style: italic;
+      border-radius: 15px;
+      text-align: center;
+      padding: 1cm;
+      margin: 1cm;
+      width: 100%;
+      
+
+
+     }
+     .biographie > article >div > img{
+      padding: 1cm;
+      margin: 1cm;
+     }
+     @media (max-width: 700px){
+      .biographie > article > div {
+        display: flex;
+        flex-direction: column;
+       } 
+       .biographie > article >div > p {
+        background : grey;
+        font-style: italic;
+        border-radius: 15px;
+        text-align: center;
+        padding: 1cm;
+        margin: 1cm;
+        width: 80%;
+        
+  
+       }
+     }
+     .med{
+      background : grey;
+      font-style: italic;
+      text-align: center;
+      padding: 1cm;
+      margin: 1cm;
+     }
+.records > h1 {
+  font-size: 40px;
+  font-style: italic;
+  color: red ;
+  text-align: left;
+  grid-row: 1/2;
+  padding: 10px;
+  margin: 10px;
+}
+.records > ul{
+  background : grey;
+  font-style: italic;
+  border-radius: 15px;
+  padding: 1cm;
+  margin: 1cm; 
+}
+.records > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap:40px;
+  margin: 2cm;
+ 
+}
+@media (max-width: 700px) {
+  .records > div {
+      display: grid;
+      grid-template-columns:  1fr;
+     
+     
+    }
+    .records > div > iframe{
+      width: 100%;
+
+    }
+}
+
+
+
+
+
+
+
+.conta {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  column-gap: 10px;
+  right: gap 10px;px;
+  margin: 2cm;
+  align-items: baseline;
+}
+.adresse > ul{
+ 
+  background: rgb(211, 203, 203);
+  border: 5 gray solid;
+  border-radius: 15px;
+
+  
+}
+.conta > h1 {
+  font-size: 40px;
+  font-style: italic;
+  color: red ;
+  text-align: left;
+ 
+ 
+}
+.contactmoi  > h1 {
+  font-size: 30px;
+      font-style: italic;
+      color: red ;
+      text-align: left;
+      
+      padding: 10px;
+      margin: 10px;
+}
+.contactmoi{
+  background: rgb(211, 203, 203);
+  font-style: italic;
+  border-radius: 15px;
+  padding: 1cm;
+  margin: 1cm;  
+}
+ .adresse{
+  background: rgb(211, 203, 203);
+  font-style: italic;
+  border-radius: 15px;
+  padding: 1cm;
+  margin: 1cm; 
+  
+ }
+
+ footer{
+ 
+  font-family: Verdana, Geneva, sans-serif;
+ font-size: 0.7em;
+ font-weight: bold;
+ color: #FFF;
+ background-color: #666;
+ padding: 10px;
+ margin: 20px;
+ height: auto;
+ width: 100%; 
+}
